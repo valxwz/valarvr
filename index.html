@@ -17,11 +17,11 @@
   <!-- adding theater model assets -->
   <!--   <a-asset-item id="theater-gltf" src="https://valxwz.github.io/valarvr/model.gltf"></a-asset-item> -->
 </a-assets>
-<a-camera position="0 1.5 0.5">
+<a-camera position="0.5 1.5 0.8">
 <a-cursor color="blue"></a-cursor>
 </a-camera>
 <a-entity event-set__mousedown="visible:false; position: 11 11 11">
-<a-text id="start" scale="0.15 0.15 0.15" value="Click to start your speech" position="-0.28 1.6 0.2" color="white" visible="true" ></a-text>
+<a-text id="start" scale="0.15 0.15 0.15" value="Click to start your speech" position="0 1.6 0.2" color="white" visible="true" ></a-text>
 <a-entity position="-2 0.4 -1" scale="0.4, 0.5, 0.3" gltf-model="#curtain-gltf" rotation="0 -90 0" shadow >
 </a-entity>
 </a-entity>
@@ -100,7 +100,7 @@ castShadow: true;
 intensity: 1;
 color: white;
 shadowCameraVisible: false;"
-position="0 6 -8"></a-entity>
+position="0.5 6 -8"></a-entity>
 <!-- lighting - Yuehan -->
 <!-- not sure the light is correct  -->
 <!-- <a-entity light="type: point;
